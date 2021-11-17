@@ -10,6 +10,16 @@ body{
    
    background: #FFFFFF;
 }
+.container{
+   width: 1200px;
+}
+button:hover{
+   box-shadow: 3px 3px 3px  rgba(95, 94, 94, 0.521);
+   transition: .3s;
+}
+.menu{
+   display: none;
+}
 header h1{
    font-size: 30px;
    color: #173A56;
@@ -86,7 +96,7 @@ header .nav-bar .nav-list ul li #button2{
    color: white;
 }
 .content ul li #button4{
-   /* border: none; */
+   
    margin-left: 20px;
    padding: 10px 15px;
    border-radius: 4px;
@@ -106,7 +116,7 @@ header .nav-bar .nav-list ul li #button2{
 }
 .server-list #bg-img-1{
    width: 100%;
-   top: 250px;
+   bottom: -200px;
    left: 0px;
    z-index: 0;
    position: absolute;
@@ -114,6 +124,8 @@ header .nav-bar .nav-list ul li #button2{
 .server-title h2{
    text-align: center;
    font-size: 32px;
+   padding: 40px;
+   margin-left: 25%;
 }
 .server-list{
    display: flex;
@@ -133,8 +145,10 @@ header .nav-bar .nav-list ul li #button2{
    border: 0px solid ;
    padding: 15px 34px;
    font-weight: 700;
-   margin-left: 470px;
+   margin-left: 42%;
+   /* left: 30%; */
    margin-top: 60px;
+   /* bottom: -10%; */
 }
 .blog{
    margin-top: 330px;
@@ -561,6 +575,7 @@ header .nav-bar .nav-list ul li #button2{
    margin-top: 150px;
 }
 .story-title{
+   padding: 0 40px;
    margin-left: 270px;
    text-align: center;
 }
@@ -625,7 +640,7 @@ header .nav-bar .nav-list ul li #button2{
    background-color: #02897A;
    width: 950px;
    display: flex;   
-   margin-left: 90px;
+   margin-left: 30px;
 }
 .CTA-title{
    padding: 50px;
@@ -718,4 +733,5 @@ footer{
    margin-top: 16px;
    text-align: center;
 }
+
 
